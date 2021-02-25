@@ -1,12 +1,14 @@
 # Dicemod
 
-A simple Minecraft Mod adding a Dice as a new Block.
+This is a educational project to accompany [Quick Tour of Java Booklet](https://bit.ly/javatourbook), which is used to to teach a bunch of teenagers who wants to hack minecraft but lacks the language skill.
 
-Based on Example 1 of [GreyGhost](https://github.com/TheGreyGhost)'s excellent [MineCraftByExample](https://github.com/TheGreyGhost/MinecraftByExample) project.
+The project is a simple Minecraft Mod adding a Dice as a new Block.
 
-This mod adds a Dice as a custom block to Minecraft.
+Based on Example 1 of [GreyGhost](https://github.com/TheGreyGhost)'s excellent [MineCraftByExample](https://github.com/TheGreyGhost/MinecraftByExample) project.t.
 
-When you first placed it down, it will randomly choose a face as up.  Like a crafting table you can put it down and take it back.
+When you first placed it down, it will randomly choose a face as up.  
+
+Like a crafting table you can put it down and take it back.
 
 ## Tips on Running it in Eclipse
 * On command line, cd to a directory where you put all your projects e.g. ~/Projects, or C:\Projects
