@@ -61,5 +61,5 @@ public class DiceBlockMod {
 		itemDiceBlock.setRegistryName(diceBlock.getRegistryName());
 		itemRegisterEvent.getRegistry().register(itemDiceBlock);
 	}
-	
+
 }

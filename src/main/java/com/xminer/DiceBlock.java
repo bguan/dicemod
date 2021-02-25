@@ -38,15 +38,14 @@ public class DiceBlock extends Block {
 
 	private static final Random RANDOM = new Random();
 
-    @SubscribeEvent
-    public static void onPlayerLogin(PlayerEvent.PlayerLoggedInEvent event)
-    {
+	@SubscribeEvent
+	public static void onPlayerLogin(PlayerEvent.PlayerLoggedInEvent event) {
 		LOGGER.info("Gift for player");
-        event.getPlayer().inventory.addItemStackToInventory(new ItemStack(DiceBlockMod.itemDiceBlock));
-    }
-    
+		event.getPlayer().inventory.addItemStackToInventory(new ItemStack(DiceBlockMod.itemDiceBlock));
+	}
+
 	public DiceBlock() {
-		super(Block.Properties.create(Material.ROCK).hardnessAndResistance(1,1).sound(SoundType.BONE));
+		super(Block.Properties.create(Material.ROCK).hardnessAndResistance(1, 1).sound(SoundType.BONE));
 		this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.UP));
 	}
 
@@ -74,7 +73,7 @@ public class DiceBlock extends Block {
 
 	@Override
 	public void onBlockHarvested(World worldIn, BlockPos pos, BlockState state, PlayerEntity player) {
-        player.inventory.addItemStackToInventory(new ItemStack(state.getBlock().asItem()));
+		player.inventory.addItemStackToInventory(new ItemStack(state.getBlock().asItem()));
 		super.onBlockHarvested(worldIn, pos, state, player);
 	}
 
