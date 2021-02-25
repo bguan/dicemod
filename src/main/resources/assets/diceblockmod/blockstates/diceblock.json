@@ -1,5 +1,40 @@
 {
     "variants": {
-        "": { "model": "diceblockmod:block/diceblock" }
+        "facing=up": [
+			{ "model": "diceblockmod:block/diceblock" },
+			{ "model": "diceblockmod:block/diceblock", "y":90 },
+			{ "model": "diceblockmod:block/diceblock", "y":180 },
+			{ "model": "diceblockmod:block/diceblock", "y":270 }
+		],
+        "facing=north": [
+			{ "model": "diceblockmod:block/diceblock", "x":90 },
+			{ "model": "diceblockmod:block/diceblock", "x":90, "y":90 },
+			{ "model": "diceblockmod:block/diceblock", "x":90, "y":180 },
+			{ "model": "diceblockmod:block/diceblock", "x":90, "y":270 }
+		],
+        "facing=east": [ 
+			{ "model": "diceblockmod:block/diceblock_side", "x":90 },
+			{ "model": "diceblockmod:block/diceblock_side", "x":90, "y": 90 },
+			{ "model": "diceblockmod:block/diceblock_side", "x":90, "y": 180 },
+			{ "model": "diceblockmod:block/diceblock_side", "x":90, "y": 270 }
+		],
+        "facing=west": [
+			{ "model": "diceblockmod:block/diceblock_side", "x":270 },
+			{ "model": "diceblockmod:block/diceblock_side", "x":270, "y": 90 },
+			{ "model": "diceblockmod:block/diceblock_side", "x":270, "y": 180 },
+			{ "model": "diceblockmod:block/diceblock_side", "x":270, "y": 270 }
+		],
+        "facing=south": [
+			{ "model": "diceblockmod:block/diceblock", "x": 270 },
+			{ "model": "diceblockmod:block/diceblock", "x": 270, "y": 90 },
+			{ "model": "diceblockmod:block/diceblock", "x": 270, "y": 180 },
+			{ "model": "diceblockmod:block/diceblock", "x": 270, "y": 270 }
+		],
+        "facing=down": [
+			{ "model": "diceblockmod:block/diceblock", "x": 180 },
+			{ "model": "diceblockmod:block/diceblock", "x": 180, "y":90 },
+			{ "model": "diceblockmod:block/diceblock", "x": 180, "y":180 },
+			{ "model": "diceblockmod:block/diceblock", "x": 180, "y":270 }
+		]
     }
 }
