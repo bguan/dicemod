@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "up": "diceblockmod:block/diceblock_face1",
+        "down": "diceblockmod:block/diceblock_face6",
+        "north": "diceblockmod:block/diceblock_face4",
+        "south": "diceblockmod:block/diceblock_face3",
+        "east": "diceblockmod:block/diceblock_face2",
+        "west": "diceblockmod:block/diceblock_face5",
+        "particle": "block/lapis_block"
+    }
+}
