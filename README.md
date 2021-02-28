@@ -4,10 +4,11 @@ This is a educational project to accompany [Quick Tour of Java Booklet](https://
 
 The project is a simple Minecraft Mod adding a Dice as a new Block.
 
-Based on Example 1 of [GreyGhost](https://github.com/TheGreyGhost)'s excellent [MineCraftByExample](https://github.com/TheGreyGhost/MinecraftByExample) project.t.
+Based on Example 1 of [GreyGhost](https://github.com/TheGreyGhost)'s excellent [MineCraftByExample](https://github.com/TheGreyGhost/MinecraftByExample) project.
 
 When you first placed it down, it will randomly choose a face as up.  
-
+When you right click it, it will roll the dice again to pick another random face up.
+To help demo even in survival mode, a dice is automatically put into player inventory on startup.
 Like a crafting table you can put it down and take it back.
 
 ## Tips on Running it in Eclipse
